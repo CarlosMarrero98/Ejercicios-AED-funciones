@@ -137,4 +137,27 @@ Implementa una función __secuenciaCollatz(int $n): array__ que genere la secuen
 6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1
 ```
 
+```php
+<?php
+function secuenciaCollatz(int $n): array {
+    $secCollatz[] = $n;
+
+    while($n > 1) {
+        if ($n % 2 == 0) {
+            $n = $n / 2;
+        }else {
+            $n = $n * 3 + 1;
+        }
+
+        $secCollatz[] = $n;
+    }
+
+    return $secCollatz;
+}
+
+$sec = secuenciaCollatz(1732);
+echo implode(" → ", $sec) . "\n";
+?>
+```
+
 ---
