@@ -1,4 +1,4 @@
-# <img src=../../../../images/computer.png width="40"> Code, Learn & Practice("Introducción a Php, uso de funciones")
+# Code, Learn & Practice("Introducción a Php, uso de funciones")
 
 ## Número capicúa (palíndromo numérico)
 

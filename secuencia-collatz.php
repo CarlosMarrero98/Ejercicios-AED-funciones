@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 function secuenciaCollatz(int $n): array {
     $secCollatz[] = $n;
 
